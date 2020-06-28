@@ -1,0 +1,50 @@
+:host{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: column;
+    .svgs{
+      width: 100%; 
+      display: grid;
+      grid-template-columns: 140px 160px;
+      grid-template-rows: repeat(2,150px);
+      grid-gap: 1.6em;
+    }
+    app-card-square{
+      width: 140px;
+    }
+
+    .btns{
+      font-family: gotham-medium;
+      font-size: 13pt;
+      
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 2em;
+      margin-top: 3em;
+      button{
+        padding: 1.5em 2em;
+        color: #202020;
+        font-family: gotham-medium;
+        background: #D9EB6A;
+        border: none;
+        border-radius: 43px;
+      }
+      .send{
+        margin-left:1.5em
+      }
+      .total{
+        margin-left: auto;
+        margin-right: 1.5em;
+        padding: 1.5em 3em;
+      }
+    }
+}

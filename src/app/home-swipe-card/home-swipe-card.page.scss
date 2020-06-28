@@ -1,0 +1,77 @@
+$color1: #5C6CD8;
+$color2: #A468FF;
+$color3: #F0EDB4;
+$color4: #BBB86A;
+$color5: #E2DE72;
+#container{
+    width: 100%;
+    height: 100%;
+    padding: .5em 0;
+    background: #fff;
+
+    .catcher{
+        position: static;
+        height: 50px;
+        background: transparent;
+        border-radius: 28px 25px 0 0;
+        top:0px;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index:24;
+        order:1;
+        .holder{
+            width: 100px;
+            height:5px;
+            background:#868585;
+            border-radius: 40px;
+            margin-top: 1em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .badget-buttons{
+
+     .headline{
+         padding: 0 1em;
+         h1{
+        font-family: gotham-medium !important;
+        font-size: 25pt;
+        color: rgba($color: #000000, $alpha: .7);
+        font-weight: bold;
+        margin: 0;
+         }
+        }
+
+        .badgets{
+            padding: .5em 1em;
+            width: 100%;
+            font-family: gotham-bold;
+            display: grid;
+            overflow-x:auto;
+            grid-template-columns: repeat(auto-fit, minmax(110px,15px));
+            // grid-template-rows: 20px;
+            span{
+                color: #303030;
+                // background: #e6e194;
+                border-radius: 15px;
+                padding: .2em 1em;
+                text-align: center;
+                padding: 0.6em .6em;
+            }
+            span.active{
+                color: #303030;
+                background: #e6e194;
+                border-radius: 27px;
+                  
+            }
+        }
+    }
+
+
+}
+app-all-items{
+    width: 100%;
+    height: 100%;
+}

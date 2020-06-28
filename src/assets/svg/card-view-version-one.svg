@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="363" height="136" viewBox="0 0 363 136">
+  <defs>
+    <filter id="Rectangle_19" x="0" y="0" width="363" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card-view-version-one" transform="translate(-13 -294)">
+    <g transform="matrix(1, 0, 0, 1, 13, 294)" filter="url(#Rectangle_19)">
+      <rect id="Rectangle_19-2" data-name="Rectangle 19" width="321" height="94" rx="12" transform="translate(21 18)" fill="#fff"/>
+    </g>
+    <image id="icons8-jeans-96" width="68" height="68" transform="translate(41 324)" xlink:href="data:image/png;base64,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"/>
+    <text id="_53_3" data-name="$53,3" transform="translate(297 340)" fill="#575555" font-size="17" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">$53,3</tspan></text>
+    <g id="Group_38" data-name="Group 38">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="7.5" cy="7.5" r="7.5" transform="translate(112 381)" fill="#ee4d6e"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="7.5" cy="7.5" r="7.5" transform="translate(130 381)" fill="#ee4de3"/>
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(148 381)" fill="#46e1a2" stroke="#707070" stroke-width="2">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="7.5" cy="7.5" r="7.5" transform="translate(166 381)" fill="#3c403e"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="7.5" cy="7.5" r="7.5" transform="translate(184 381)" fill="#e8f96e"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="7.5" cy="7.5" r="7.5" transform="translate(202 381)" fill="#f9af6e"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="7.5" cy="7.5" r="7.5" transform="translate(220 381)" fill="#6ee1f9"/>
+    </g>
+    <g id="Group_39" data-name="Group 39">
+      <text id="_3" data-name="3" transform="translate(302 392)" fill="#575555" font-size="17" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">3</tspan></text>
+      <g id="Group_36" data-name="Group 36" transform="translate(26)">
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="7.5" cy="7.5" r="7.5" transform="translate(252 381)" fill="#e2de72" opacity="0.53"/>
+        <text id="_" data-name="+" transform="translate(255 394)" fill="#575555" font-size="14" font-family="Gotham-Black, Gotham" font-weight="800"><tspan x="0" y="0">+</tspan></text>
+      </g>
+      <g id="Group_37" data-name="Group 37" transform="translate(-6)">
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="7.5" cy="7.5" r="7.5" transform="translate(328 381)" fill="#e2de72" opacity="0.53"/>
+        <text id="_-" data-name="-" transform="translate(332 395)" fill="#575555" font-size="20" font-family="Gotham-Black, Gotham" font-weight="800"><tspan x="0" y="0">-</tspan></text>
+      </g>
+    </g>
+    <g id="Group_40" data-name="Group 40">
+      <text id="Calça_Jeans" data-name="Calça Jeans" transform="translate(104 343)" fill="#575555" font-size="28" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">Calça Jeans</tspan></text>
+      <text id="tenha_sua_roupa_pronta_em_poucos_passos_com_" data-name="tenha sua roupa pronta em poucos
+passos com " transform="translate(112 357)" fill="#686868" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300" opacity="0.69"><tspan x="0" y="0">tenha sua roupa pronta em poucos</tspan><tspan x="0" y="7">passos com </tspan></text>
+    </g>
+  </g>
+</svg>

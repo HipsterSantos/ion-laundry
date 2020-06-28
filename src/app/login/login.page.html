@@ -1,0 +1,35 @@
+<div id="container" [ngClass]="{remove: removeClass}">
+  <div class="sub-container">
+
+    <div class="row-1">
+    <h1>Login</h1>
+  </div>
+  <form class="row-2">
+    <div class="first">
+      <div>
+        <ion-item>
+          <ion-label position="floating">Telefone/Email</ion-label>
+          <ion-input type="text" pattern="text" ></ion-input>
+        </ion-item>
+      </div>
+
+      <div>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" pattern="password" required></ion-input>
+        </ion-item>
+      </div>
+    </div>
+      
+    
+      <div class="second">
+        <button type="submit" routerLink="/home">Login</button>
+        <p>or</p>
+        <h5 routerLink="/signup">Criar uma conta</h5>
+      </div>
+  </form>
+  
+  </div>
+  
+ 
+</div>

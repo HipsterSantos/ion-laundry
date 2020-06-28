@@ -1,0 +1,231 @@
+#container{
+    // font-family:gotham-light;
+    background: #D9EB6A;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    .first{
+        width: inherit;
+        height: 300px;
+        color: #fff;
+        background: #D9EB6A;
+        position: absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index: 20;
+        
+        .header{
+            background: url('../../assets/svg/watermark.svg');
+            background-repeat: no-repeat;
+            background-position: -40px -20px;
+            display: flex;
+            flex-direction: column;
+            padding: .2em .9em;
+            width: inherit;
+            height: inherit;
+            .overlay{
+                width: inherit;
+                height: inherit;
+                 .two-icons{
+                     margin-top: 1em;
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: gotham-bold;
+                font-size:15pt;
+                font-weight: 600;
+                margin-top: 1em;
+                
+                }
+                svg{
+                margin-left:auto;
+                 }
+             }
+
+             .location{
+
+                h1{
+                    margin:0;
+                    font-family:gotham-bold;
+                    font-size: 22pt;
+                    font-weight: bold;
+                }
+
+                 }
+         }
+        
+    } 
+}
+    
+    .second{
+        position: absolute;
+        height:100%;
+        top:140px;
+        background: #fff;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index: 21;
+        padding:2em .8em;
+        padding-block-start: 2em;
+        
+        display:flex;
+        flex-direction: column;
+        overflow-y: scroll !important;
+        border-radius: 28px 25px 0 0;
+        box-shadow: 1px -3px 12px rgba($color: #000000, $alpha: .4);
+   .second-overlay{
+       order:2;
+
+ .headline{
+            h1{
+                font-family: gotham-medium !important;
+                font-size: 25pt;
+                color: rgba($color: #000000, $alpha: .7);
+                font-weight: bold;
+            }
+            p{
+                font-family:gotham-light;
+                font-size:9pt;
+                color: rgba($color: #000000, $alpha: .8);
+            }
+        }
+
+.home-report{
+            width: 100%;
+            padding:1em 1em; ;
+            .healine-badget{
+                display: flex;
+                h1.head{
+                    font-family: gotham-medium !important;
+                    font-size: 25pt;
+                    color: rgba($color: #000000, $alpha: .7);
+                    font-weight: bold;
+                }
+                .badget{
+                    margin-left:auto;
+                    margin-bottom: auto;
+                    margin-top: auto;
+                    margin-right:auto;
+                    background-color: rgb(116, 51, 221);
+                    color:#fff;
+                    font-family: gotham-medium;
+                    border-radius: 20px;
+                    padding: .2em .3em;
+                }
+            }
+    
+            .report{
+                display: flex;
+                flex-direction: column;
+                div{
+                background: rgb(87, 35, 172);
+                margin-bottom: 1em;
+                border-radius: 5px;
+                color: #fff;
+                padding:.2em .5em;
+                .row-1,.row-2,.row3,.ref{
+                    display: flex;
+                    flex-direction: row;
+                    h1{
+                        margin-bottom: 0.2em;
+                        margin-top: 10px;
+                        font-size: 18px; 
+                        font-family: gotham-bold;
+                    }
+                    p{
+                        margin-left: auto;
+                       
+                        margin-top:auto;
+                        margin-bottom: auto;
+                    }
+                }
+                .row-3{
+                    ul{
+                        list-style: none;
+                        h3{
+                            margin-left: -2em;
+                            font-size: 18pt;
+                        }
+                        .inline{
+                            margin-left: -2.5em;
+                        }
+                    }
+                }
+                .ref{
+                    margin-top: 1em;
+                    h1{
+                        font-size: 26pt;
+                    }
+                    p{
+                        margin-left: auto;
+                    }
+                  
+                }
+                
+                .total{
+                    background: #fff;
+                    color: #303030;
+                    padding: 1em 2em;
+                    border: none;
+                    font-weight: bold;
+                    font-size: 20pt;
+                    border-radius: 24px;
+                    font-family: gotham-medium;
+                    text-align:center;
+                }
+    
+    
+               
+                }
+            }
+        }
+
+   }
+       
+
+        .catcher{
+        position: absolute;;
+        height: 50px;
+        background: transparent;
+        border-radius: 28px 25px 0 0;
+        top:0px;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index:24;
+        order:1;
+        .holder{
+            width: 100px;
+            height:5px;
+            background:#868585;
+            border-radius: 40px;
+            margin-top: 1em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        }
+
+    }
+}
+
+
+app-home-swipe-card{
+    background: #fff;
+    position: absolute;
+    transform: translateY(815px);
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 34;
+    margin-bottom:-.4em;
+    overflow-y: scroll !important;
+        border-radius: 28px 25px 0 0;
+        box-shadow: 1px -3px 12px rgba($color: #000000, $alpha: .4);
+}

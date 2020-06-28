@@ -1,0 +1,116 @@
+
+
+.spliter{
+    font-family: gotham-light;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .fixed-content{
+        position: fixed;
+        background-color: #D9EB6A;
+        width: 100%;
+        height: 230px;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right:0;
+        z-index: 8;
+        .overlay{
+            width: inherit;
+            height: inherit;
+            position: relative;
+            background: url('../../assets/svg/watermark.svg')
+            no-repeat 
+            ;
+            background-position:-25% 5% ;
+            background-size: contain;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+
+    .main-content{
+    border-radius: 30px 30px 0 0 ;
+    position: fixed;
+    height: 100%;
+    padding-bottom: 1em;
+    background: #fff;
+    top: 49px;
+    bottom: 0;
+    overflow-y: scroll;
+    left: 0;
+    right:0;
+     z-index: 18;
+     
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+     h1{
+         font-family:gotham-medium;
+         font-size: 20pt;
+         color: rgba($color: #000000, $alpha: .8);
+     }
+     .card:last-child{
+        margin-bottom: 2.5em;
+     }
+     .card{
+         align-items: center;
+         justify-content: center;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: .8em;
+         
+         width: 340px;
+         height: auto;
+         display: flex;
+         margin-top: .8em;
+         flex-direction: row;
+         border-radius: 10px;
+         box-shadow: 1px 2px 14px rgba($color: #000000, $alpha: .4);
+         .img{
+             width: 100%;
+             height: 100%;
+             flex: 13%;
+             border-radius: 10px 0 10px 0;
+             background: url('../../assets/img/img2.jpg');
+             background-size: cover;
+             img{
+                width: inherit;
+                 height: 100%; 
+                 border-radius: 10px 0 10px 0;
+                 
+             }
+         }
+         .body-flex{
+             display: flex;
+             flex: 3;
+             padding-left: .7em;
+             padding-right:.6em;
+             padding-top: .4em;
+             padding-top:.4em;
+             .location,.tel{
+                display: flex;
+                flex-direction: row;
+                margin:auto;
+                h3{
+                    font-size: 14pt;
+                    font-family: gotham-bold;
+                }
+                p{
+                    font-size: 10pt;
+                    margin-left: auto;
+                    margin-top: auto;
+                }
+             }
+             .title{
+                 margin: auto;
+                //  font-size: 10pt;
+             }
+         }
+     }
+
+    }
+}

@@ -1,0 +1,15 @@
+<svg id="shopping-bag-solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="25.5" viewBox="0 0 27 25.5">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M1.5,22.511A1.46,1.46,0,0,1,0,21.094V6.928H5.25v2.2a.751.751,0,0,0,1.5,0v-2.2H5.25V4.958A4.914,4.914,0,0,1,7.875.664a5.519,5.519,0,0,1,5.249,0A4.914,4.914,0,0,1,15.75,4.958V6.928H21V21.094a1.46,1.46,0,0,1-1.5,1.417ZM14.25,6.928v2.2a.751.751,0,0,0,1.5,0v-2.2h-1.5V4.958A3.65,3.65,0,0,0,10.5,1.416,3.651,3.651,0,0,0,6.75,4.958V6.928Z" fill="#e2de72"/>
+    </clipPath>
+  </defs>
+  <g id="color" transform="translate(3 1.573)">
+    <path id="Mask-2" data-name="Mask" d="M1.5,22.511A1.46,1.46,0,0,1,0,21.094V6.928H5.25v2.2a.751.751,0,0,0,1.5,0v-2.2H5.25V4.958A4.914,4.914,0,0,1,7.875.664a5.519,5.519,0,0,1,5.249,0A4.914,4.914,0,0,1,15.75,4.958V6.928H21V21.094a1.46,1.46,0,0,1-1.5,1.417ZM14.25,6.928v2.2a.751.751,0,0,0,1.5,0v-2.2h-1.5V4.958A3.65,3.65,0,0,0,10.5,1.416,3.651,3.651,0,0,0,6.75,4.958V6.928Z" transform="translate(0 0)" fill="#e2de72"/>
+    <g id="color-2" data-name="color" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <g id="color-3" data-name="color" transform="translate(-3 -1.573)">
+        <rect id="Rectangle" width="27" height="25.5" fill="#e2de72"/>
+      </g>
+    </g>
+  </g>
+</svg>

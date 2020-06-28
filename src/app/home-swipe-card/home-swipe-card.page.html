@@ -1,0 +1,20 @@
+<div id="container">
+  <div class="catcher" #holder>
+    <div class="holder">
+    </div>
+  </div>
+  <div class="badget-buttons">
+    <div class="headline">
+      <h1>Selecione os item que desejar</h1>
+    </div>
+    <div class="badgets">
+      <span class="active" routerLink="all">Todos</span>
+      <span (click)="moveTo()" >T-shirt</span>
+      <span>Jacketa</span>
+      <span> Calções</span>
+    </div>
+  </div>
+  <div class="flex-outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>

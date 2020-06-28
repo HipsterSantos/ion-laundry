@@ -1,0 +1,126 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+   
+    <div class="header">
+      <div class="first">
+
+        <div class="edit-button">
+        <h5 (click)="canEdit()" *ngIf="edit"> <span class="svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="358.62 129.28 86.49 402.08 70 442 109.92 425.51 382.72 153.38 358.62 129.28" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px"/><path d="M413.07,74.84,401.28,86.62l24.1,24.1,11.79-11.79a16.51,16.51,0,0,0,0-23.34l-.75-.75A16.51,16.51,0,0,0,413.07,74.84Z" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px"/></svg>
+        </span>{{text}}</h5>
+        <h5 (click)="canEdit()" *ngIf="!edit"> <span class="svg">
+          <svg xmlns="http://www.w3.org/2000/svg" class="ionicon"
+          width="20" height="20"
+          viewBox="0 0 512 512">
+          <path d="M380.93 57.37A32 32 0 00358.3 48H94.22A46.21 46.21 0 0048 94.22v323.56A46.21 46.21 0 0094.22 464h323.56A46.36 46.36 0 00464 417.78V153.7a32 32 0 00-9.37-22.63zM256 416a64 64 0 1164-64 63.92 63.92 0 01-64 64zm48-224H112a16 16 0 01-16-16v-64a16 16 0 0116-16h192a16 16 0 0116 16v64a16 16 0 01-16 16z" stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:24px"/></svg>
+        </span> Salvar</h5>
+      </div>
+
+      <div class="profile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="102.115" viewBox="0 0 27 29.115">
+          <defs>
+            <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 500 750">
+              <image width="500" height="750" href="../../assets/img/kendall.jpg"/>
+            </pattern>
+          </defs>
+          <g id="Group_7" data-name="Group 7" transform="translate(-286 -66)">
+            <path id="Path_4" data-name="Path 4" d="M14.557,0V29.115A14.557,14.557,0,0,1,14.557,0Z" transform="translate(286 66)" fill="#fff"/>
+            <circle id="photo-1545928365-5da111f1bb2d" cx="12.5" cy="12.5" r="12.5" transform="translate(288 68)" fill="url(#pattern)"/>
+          </g>
+        </svg>
+      <input type="file" id="hidden-input" style="display: none;">
+        <label for="hidden-input">
+          <span *ngIf="!edit" class="update-photo"
+        style="
+            position: absolute;
+    top: 9em;
+    left: 13em;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    width: 80px;
+    color: #303030;
+    height: 29px;
+    font-weight: bold;
+    border-radius: 70px;
+    padding: 0.5em .2em;
+        ">
+          Alterar
+        </span>
+        </label>
+        
+        
+      </div>
+      <div class="headline">
+        <h3>John doe</h3>
+        <p>(DevOps)</p>
+      </div> 
+   </div>
+  </div>
+
+      <div class="second">
+        <h1>Informação pessoal</h1>
+        <div class="user-info1">
+          <h4>Username</h4>
+          <input type="text" value="John Doe" [disabled]="edit">
+        </div>
+        <div class="user-info2">
+          <h4>Email</h4>
+          <input type="text" value="JohnDoe@gmail.com" [disabled]="edit" >
+        </div>
+        <div class="user-info3">
+          <h4>Telefone</h4>
+          <input type="text" value="994636363" [disabled]="edit">
+        </div>
+        <div class="user-info4">
+          <h4>Localização</h4>
+          <input type="text" value="Viana/Villa" [disabled]="edit">
+        </div>
+      </div>
+
+     <div class="third">
+       <div class="healine-badget">
+         <h1 class="head">Pedido realizados </h1>
+         <h1 class="badget">45</h1>
+       </div>
+
+       <div class="report">
+         <div *ngFor="let i of [1,2,3,4]">
+           <div class="ref">
+              <h1>Ref:</h1>
+              <p>45773</p>
+              <span>Cancelar</span>
+           </div>
+           
+            <div class="sub-report">
+              <div class="row-1">
+                <h1>Data do pedido</h1> 
+                <p>12/03/2020</p>
+              </div>
+              <div class="row-2">
+                <h1>Data da Entrega</h1>
+                <p>Pendente</p>
+              </div>
+              <div class="row-3">
+                <ul>
+                  <h3>Items</h3>
+                  <div class="inline">
+                   <li>thsirt</li>
+                  <li>jacketa</li> 
+                  </div>
+                  
+                </ul>
+              </div>
+             
+              <div class="total">
+                <span>Total $45.44</span>
+              </div>
+            </div>
+       </div>
+         </div>
+        
+     </div> 
+    
+    
+  </div>
+</ion-content>
