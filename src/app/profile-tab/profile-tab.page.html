@@ -52,7 +52,7 @@
         
       </div>
       <div class="headline">
-        <h3>John doe</h3>
+        <h3>{{user.name}}</h3>
         <p>(DevOps)</p>
       </div> 
    </div>
@@ -62,19 +62,19 @@
         <h1>Informação pessoal</h1>
         <div class="user-info1">
           <h4>Username</h4>
-          <input type="text" value="John Doe" [disabled]="edit">
+          <input type="text" [value]="user.name" [disabled]="edit" [(ngModel)]="user.name">
         </div>
         <div class="user-info2">
           <h4>Email</h4>
-          <input type="text" value="JohnDoe@gmail.com" [disabled]="edit" >
+          <input type="text" [value]="user.email"  [disabled]="edit" [(ngModel)]="user.email" >
         </div>
         <div class="user-info3">
           <h4>Telefone</h4>
-          <input type="text" value="994636363" [disabled]="edit">
+          <input type="text" [value]="user.telefone"  [disabled]="edit" [(ngModel)]="user.telefone">
         </div>
         <div class="user-info4">
           <h4>Localização</h4>
-          <input type="text" value="Viana/Villa" [disabled]="edit">
+          <input type="text" [value]="user.location"  [disabled]="edit" [(ngModel)]="user.location">
         </div>
       </div>
 

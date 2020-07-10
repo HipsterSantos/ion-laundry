@@ -11,12 +11,19 @@ const routes: Routes = [
     component: MainTabPage,
     children: [
       {
+        path:'',
+        redirectTo:'items'
+      },
+      {
         path: 'items',
         component: CategoryItemsPage
       },
       {
         path: 'all',
-        component: AllItemsPage
+        component: AllItemsPage,
+        children:[
+          {path: 'items', component: CategoryItemsPage}
+        ]
       }
     ]
   }

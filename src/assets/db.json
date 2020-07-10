@@ -1,0 +1,330 @@
+{
+    "users":{
+        "073":{
+            "name":"jessica",
+            "telefone": "993222333",
+            "senha": "ihateyou",
+            "location":"viana/villa",
+            "email":"info@san.com",
+            "imgurl":""
+        },
+        "0222":{
+            "name":"Analia",
+            "telefone": "993222333",
+            "senha": "ihateyou",
+            "location":"viana/villa",
+            "email":"info@san.com",
+            "imgurl":""
+        },
+        "022":{
+            "name":"Chelsy",
+            "telefone": "993222333",
+            "senha": "ihateyou",
+            "location":"viana/villa",
+            "email":"info@san.com",
+            "imgurl":""
+        }, 
+        "012":{
+            "name":"Santos",
+            "telefone": "993733224",
+            "senha": "ihateyou",
+            "location":"US/CA/Byarea",
+            "email":"info@san.com",
+            "imgurl":""
+        },
+        "0122":{
+            "name":"Remiro",
+            "telefone": "991926436",
+            "senha": "ihateyou",
+            "location":"viana/villa",
+            "email":"info@san.com",
+            "imgurl":""
+        }
+    },
+    "services": [
+        {
+        "lavagem":{
+            "id":"lav",
+            "dias": 2,
+            "horas":"1h",
+            "imgurl": ""
+        }
+     },
+     {
+        "secagem":{
+            "id":"sec",
+            "dias": 1,
+            "horas":"1h",
+            "imgurl": ""
+        }
+     },
+     {
+        "engomar":{
+            "id":"eng",
+            "dias": 2,
+            "horas":"1h",
+            "imgurl": ""
+        }
+     },
+     {
+        "Entrega Domiciliar":{
+            "id":"ent",
+            "dias": 1,
+            "horas":"1h",
+            "imgurl": ""
+        }
+     }
+],
+    "products":[
+            { "type":"t-shirt",
+                "tag": "sh",
+            "service_supported":[
+                "lav","sec","eng","ent"
+                  ],
+             "price":36.00,
+             "colors":["red","rose","green","black","yellow","orange","blue"],
+             "amount": 0
+            },
+
+            { "type":"jacketa",
+                "tag": "ja",
+            "service_supported":[
+                "lav","sec","eng","ent"
+                  ],
+             "price":36.00,
+             "colors":["red","rose","green","black","yellow","orange","blue"],
+             "amount": 0
+            },
+
+            { "type":"calções",
+                "tag": "ca",
+            "service_supported":[
+                "lav","sec","eng","ent"
+                  ],
+             "price":36.00,
+             "colors":["red","rose","green","black","yellow","orange","blue"],
+             "amount": 0
+            },
+
+            { "type":"calças",
+                "tag": "cc",
+            "service_supported":[
+                "lav","sec","eng","ent"
+                  ],
+             "price":36.00,
+             "colors":["red","rose","green","black","yellow","orange","blue"],
+             "amount": 0
+            },
+
+            { "type":"vestidos",
+                "tag": "ve",
+            "service_supported":[
+                "lav","sec","eng","ent"
+                  ],
+             "price":36.00,
+             "colors":["red","rose","green","black","yellow","orange","blue"],
+             "amount": 0
+            }
+],
+    "shopping_cart":{
+    "ref":{
+        
+        "42232":{
+        "report":[
+            {
+            "userId": "0122",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            },
+            {
+            "userId": "033",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            },
+            {
+            "userId": "014",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            }
+     ]
+
+    },
+    "55632":{
+        "report":[
+            {
+            "userId": "0322",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            },
+            {
+            "userId": "033",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            },
+            {
+            "userId": "014",
+            "services_used":["lav","eng"],
+            "order_date": "12/04/2020",
+            "entrega_date": "undefined",
+            "total":34433.33,
+            "items":[
+                {"tag": "sh",
+                 "quantidade":4,
+                 "colours":["red","blue","green","orange"],
+                 "total_items":3.42
+                },
+                {"tag": "ca",
+                    "quantidade":4,
+                    "colours":["red","blue","green","orange"],
+                    "total_items":6.34
+                },
+                {"tag": "cc",
+                    "quantidade":2,
+                    "colours":["green","orange"],
+                    "total_items":8.33
+                },
+                {"tag": "ve",
+                    "quantidade":1,
+                    "colours":["red"],
+                    "total_items":20.12
+                }
+             ]
+    
+            }
+     ]
+     
+    } 
+
+}
+
+}
+    
+    
+
+
+}

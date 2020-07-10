@@ -8,10 +8,10 @@
       <h1>Selecione os item que desejar</h1>
     </div>
     <div class="badgets">
-      <span class="active" routerLink="all">Todos</span>
-      <span (click)="moveTo()" >T-shirt</span>
-      <span>Jacketa</span>
-      <span> Calções</span>
+      <span class="active">Todos</span>
+      <span 
+      *ngFor="let product of ['Caminsas', 'Calções', 'Cazacos', 'Vestidos', 'Calças']"
+      (click)="moveTo()">{{product}}</span>
     </div>
   </div>
   <div class="flex-outlet">
