@@ -28,7 +28,7 @@
           </div>
 
           <div class="location" #headerlocation>
-            <h1 #headername>John doe</h1>
+            <h1 #headername>{{user.name}}</h1>
             <svg id="map-marker-line-badged" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="15.67" viewBox="0 0 19 15.67">
               <defs>
                 <clipPath id="clip-path-location">
@@ -44,7 +44,7 @@
                 </g>
               </g>
               <ellipse id="Oval" cx="2.639" cy="2.176" rx="2.639" ry="2.176" transform="translate(13.194 0.435)" fill="#fff"/>
-            </svg> &nbsp;<span>Viana/villa</span>
+            </svg> &nbsp;<span>{{user.location}}</span>
             
           </div>
           
@@ -67,8 +67,11 @@
 
       <div class="card-views">
         <div class="svgs">
-          <app-home-card *ngFor="let i of [1,2,3,4]" (click)="goTop()" 
-          [routerLink]="['all']" [queryParams]="{service: 'lavagem'}"></app-home-card>
+          <app-home-card 
+          [services]="services"
+          [index]='k'
+          *ngFor="let i of services;let k=index" (click)="goTop()" 
+          [routerLink]="['items']" [queryParams]="{service: services[k].name}"></app-home-card>
         </div>
         
       </div>

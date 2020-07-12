@@ -1,11 +1,16 @@
 <div class="container">
  
   <div class="svgs">
-  <app-card-rectangle *ngFor="let i of [1,2,3,5]"></app-card-rectangle>
+  <app-card-rectangle
+   *ngFor="let i of products;let k = index"
+   [index]="k"
+   [produtos]="i"
+   (totalEvent)="total=$event"
+   ></app-card-rectangle>
   </div>
   <div class="btns">
-      <button class="send">Eviar</button>
-      <button class="total">Total $59.55</button>
+      <button class="send">Enviar</button>
+    <button class="total">Total {{total}}Kz</button>
   </div>
  
 </div>

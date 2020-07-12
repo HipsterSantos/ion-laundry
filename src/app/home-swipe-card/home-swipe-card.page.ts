@@ -12,30 +12,30 @@ export class HomeSwipeCardPage implements OnInit , AfterViewInit {
     private getController: GestureController,
     private elref: ElementRef,
     private r2: Renderer2,
-    private router: Router, 
+    private router: Router,
     private activated: ActivatedRoute) { }
 
-  
+
   ngOnInit() {
   }
-  
+
  moveTo(){
-  
-   this.router.navigate(['items'], { relativeTo: this.activated , queryParams: {service: 'lavagem'}, queryParamsHandling: 'preserve'});
+  alert('navigating to items');
+  this.router.navigate(['items'], {relativeTo: this.activated, queryParamsHandling:'merge'});
  }
 
   ngAfterViewInit(){
-    
+
     const config: GestureConfig = {
-    gestureName: "anime-card",
-    el:this.holder.nativeElement,
+    gestureName: 'anime-card',
+    el: this.holder.nativeElement,
     direction: 'y',
     onStart: (event) => {
      this.r2.setStyle(this.elref.nativeElement, 'transform' , `translateY(${event.currentY}px)`);
     },
     onMove: (event) => {
       this.r2.setStyle(this.elref.nativeElement, 'transform' , `translateY(${event.currentY}px)`);
-      console.log(event)
+      console.log(event);
     },
     onEnd: (event) => {
       if (event.deltaY < 210 && event.deltaY < 530){
@@ -44,13 +44,13 @@ export class HomeSwipeCardPage implements OnInit , AfterViewInit {
       // if (event.deltaY > 24){
       //   this.r2.setStyle(this.elref.nativeElement, 'transform' , `translateY(${11}px)`);
       // }
-        console.log(event)
-        
+      console.log(event);
+
     }
 
 
     };
-   
+
     this.getController.create(config).enable();
 
   }

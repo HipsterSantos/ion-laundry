@@ -80,13 +80,12 @@
             }
 
     }
-
-}
-
-@media screen and (max-height:400px){
-    #container{
-        background: url('../../assets/svg/Path2left.svg');
+@media screen and (max-height:550px){
+    #container,.sub-container{
+        background: none;
         background-repeat: no-repeat;
         background-position: 120% -20%;
     }
 }
+}
+

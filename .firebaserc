@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ion-laundry": {
+      "hosting": {
+        "app": [
+          "ion-laundry"
+        ]
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
-export interface Services{
-    type: string;
-    name: string | 'lavagem' | 'secagem' | 'Engomar' | 'Entrega';
-    description: string;
+export interface Servicos{
+    tag: string;
+    name: string | 'Lavagem' | 'Secagem' | 'Engomar' | 'Entrega';
+    time: string;
 }

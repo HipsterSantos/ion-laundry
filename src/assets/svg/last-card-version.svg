@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="160" viewBox="0 0 370 160">
+  <defs>
+    <filter id="rectangle" x="0" y="0" width="370" height="160" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="last-card-version" transform="translate(-13 -296)">
+    <g transform="matrix(1, 0, 0, 1, 13, 296)" filter="url(#rectangle)">
+      <rect id="rectangle-2" data-name="rectangle" width="328" height="118" rx="12" transform="translate(21 18)" fill="#fff"/>
+    </g>
+    <image id="icon" width="43" height="43" transform="translate(57 355)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACn0lEQVRIie2VzUuUURTGn3PfmbEcok1mKkqQE0FQxDsmUdE/UGmLWbSJMvCTWrQOEmkpbmRsphZ9bIpaBPUfpNXCGU2IyGaohVALiRah5uu892nhTPN133Eayo0+q8O95zm/c+95P4BtbZJko4QTYws7neDqoJCnEv2hCwAQjqW/AmzKlviW6G9vXl9PPafIVGCpbuLtjdaVSnVVpc2OWOqcU7/6QchRCN7l1gkm81lM5EPMCTnq1P9KhWPpSzWB7Xi6m8ALAfcDgEU8y+0JkQdLPqbST9aX0ALwoR1Pd3vVN171kUdzQf9y8H0OCgAiSAJyN+DLPF5x1Bkl8hIAKDy7w6dfORnfRYC9JOyCUgt1fvfw66uHflZ14sBy/e1CKACQsEmOOa7VZml//nqRmXFcq43kWAkUAFpX16yRqk58PDZ/VEMlAPjKkskr0wMHHwDZB4xkYiDUAgAddz5dpsh9A8PVWjpnBtuThYvFJx6m0lBxExQAtJKlXEwwWThfQJZNHgCWZTEeeUrLExxuSl8H0OlRAEJMdN773JiN/4Dt+PweCMa9fCTsLz/S14zgY+Mfm0EMe5mz2uO6bhwANJhg9lVSVBME9lZ0EiMd0XRrGdjyq1sAdhedEPlXqEBddjwVYUbPaEfP2vFUhECkNMng3UVL3ywDA9JV0uFiJoAhU/OiEUXQWkPQWhONqCknE8AQiMUS53kDGI1FXIWh2Z5QiTHnR4PPQdTnIApBgylltie0SFXW+D4TuEjJvpDpmvONAcYrrrZGxW/1/1TNYFFykqJObzpYUxTdzIa/VS8Zv1DVSKgnRdU+qa094+8esVF/MWNj3Q2N4ViKVRQvU6I/VLH21p6xhzhVBoVMTve2v0n2HZjy2q+1oW39c/0Gz8AF/Sev1HsAAAAASUVORK5CYII="/>
+    <text id="price" transform="translate(260 348)" fill="#575555" font-size="31" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">53,</tspan><tspan y="0" font-size="27">Kz</tspan></text>
+    <g id="colors" transform="translate(57 404)">
+      <circle id="red" cx="10.5" cy="10.5" r="10.5" fill="#ee4d6e"/>
+      <ellipse id="rose" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(25)" fill="#ee4de3"/>
+      <g id="green" transform="translate(51)" fill="#46e1a2" stroke="#707070" stroke-width="2">
+        <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+        <circle cx="10.5" cy="10.5" r="9.5" fill="none"/>
+      </g>
+      <ellipse id="black" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(76)" fill="#3c403e"/>
+      <circle id="yellow" cx="10.5" cy="10.5" r="10.5" transform="translate(102)" fill="#e8f96e"/>
+      <ellipse id="orange" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(127)" fill="#f9af6e"/>
+      <circle id="blue" cx="10.5" cy="10.5" r="10.5" transform="translate(153)" fill="#6ee1f9"/>
+    </g>
+    <g id="headline" transform="translate(48 316)">
+      <text id="T-shirt_lon" data-name="T-shirt lon" fill="#575555" font-size="25" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="23">T-shirt lon</tspan></text>
+      <text id="tenha_sua_roupa_pronta_em_poucos_passos_com_" data-name="tenha sua roupa pronta em poucos
+passos com " transform="translate(8 31)" fill="#686868" font-size="5" font-family="Gotham-Light, Gotham" font-weight="300" opacity="0.69"><tspan x="0" y="0">tenha sua roupa pronta em poucos</tspan><tspan x="0" y="5">passos com </tspan></text>
+    </g>
+    <g id="Buying-button" transform="translate(0 4)">
+      <g id="buttons">
+        <path id="Path_15" data-name="Path 15" d="M17,0H75a17,17,0,0,1,0,34H17A17,17,0,0,1,17,0Z" transform="translate(262 387)" fill="#e2de72" opacity="0.36"/>
+      </g>
+      <text id="amount" transform="translate(302 411)" fill="#575555" font-size="17" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">0</tspan></text>
+      <g id="increase">
+        <rect id="Rectangle_29" data-name="Rectangle 29" width="29" height="34" rx="11" transform="translate(260 387)" fill="#e2de72" opacity="0.86"/>
+        <text id="_" data-name="+" transform="translate(266 415)" fill="#575555" font-size="28" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">+</tspan></text>
+      </g>
+      <g id="decrease">
+        <rect id="Rectangle_28" data-name="Rectangle 28" width="29" height="34" rx="11" transform="translate(325 387)" fill="#e2de72" opacity="0.86"/>
+        <text id="_-" data-name="-" transform="translate(334 414)" fill="#575555" font-size="27" font-family="Gotham-Black, Gotham" font-weight="800" opacity="0.89"><tspan x="0" y="0">-</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

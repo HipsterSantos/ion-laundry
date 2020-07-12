@@ -9,9 +9,9 @@
     </div>
     <div class="badgets">
       <span class="active" routerLink="all">Todos</span>
-      <span (click)="moveTo()" >T-shirt</span>
-      <span>Jacketa</span>
-      <span> Calções</span>
+      <span 
+      *ngFor="let product of ['Caminsas', 'Calções', 'Cazacos', 'Vestidos', 'Calças']"
+      >{{product}}</span>
     </div>
   </div>
   <div class="flex-outlet">

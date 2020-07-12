@@ -5,7 +5,10 @@ import { AllItemsPage } from './all-items/all-items.page';
 import { HomeSwipeCardPage } from './home-swipe-card.page';
 import { CategoryItemsPage } from './category-items/category-items.page';
 const routes: Routes = [
-  
+  {
+    path: 'items',
+    component: CategoryItemsPage
+  }
 ];
 
 @NgModule({

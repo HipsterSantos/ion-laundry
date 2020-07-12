@@ -1,7 +1,11 @@
 import { Component, AfterViewInit, Renderer2, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { GestureController, GestureConfig} from '@ionic/angular';
 import { Router, ActivatedRoute } from '@angular/router';
+import { User } from '../shared/user.interface';
+import { UserService } from '../services/user.service';
+import { Servicos } from '../shared/services.interface';
 
+import { Observable } from 'rxjs';
 @Component({
   selector: 'main-tab',
   templateUrl: 'main-tab.page.html',
@@ -14,22 +18,31 @@ export class MainTabPage implements AfterViewInit, OnInit{
   @ViewChild('headerlocation', {static: true}) location: ElementRef;
   @ViewChild('headername', {static: true}) headername: ElementRef;
   @ViewChild('itemsTop', {static: true}) itemsTop: ElementRef;
+  user: User;
+  services: Servicos[] | Observable<Servicos> = [
+    {name: 'Lavagem', tag: 'lav', time: '2dias'},
+    {name: 'Secagem', tag: 'sec', time: '2dias'},
+    {name: 'Engomar', tag: 'eng', time: '2dias'},
+    {name: 'Entrega', tag: 'ent', time: '2dias'}
+  ];
+
   constructor(
     private elRef: ElementRef,
     private r2: Renderer2,
     private gestController: GestureController,
     private route: Router,
-    private activeRoute: ActivatedRoute) {}
+    private activeRoute: ActivatedRoute,
+    private userService: UserService,
+    ) {}
 
   ngOnInit(){
-    // this.r2.setStyle(this.drawer.nativeElement, ' transform', 'translateY(-30px)');
-    // this.r2.setStyle(this.drawer.nativeElement, 'transition', 'all ease-out .3s');
-
+   this.user = this.userService.user;
+   console.log(this.userService.getUserServices())
   }
 
   goTop(){
 
-      this.route.navigate(['all'], {relativeTo: this.activeRoute, queryParams: { service: 'lavagem'}});
+      this.route.navigate(['items'], {relativeTo: this.activeRoute, queryParams: { service: 'lavagem'}});
       ( document.querySelector('#swiper') as HTMLStyleElement ).style.transition = 'all ease-in .1s';
       ( document.querySelector('#swiper') as HTMLStyleElement ).style.transform = 'translateY(11px)';
   }

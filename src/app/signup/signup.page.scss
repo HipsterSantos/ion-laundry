@@ -68,15 +68,14 @@ background-position: 110% -20% , 220% 150%;
 
 }
     }
-    
-}
 
-
-@media screen and (max-height:400px){
-    
-    .sub-container{
-        background: url('../../assets/svg/Path2left.svg');
-        background-repeat: no-repeat;
-        background-position: 120% -20%; 
+    @media screen and (max-height:550px){
+        #container,.sub-container{
+            background: none;
+            background-repeat: no-repeat;
+            background-position: 120% -20%;
+        }
     }
+    
 }
+
